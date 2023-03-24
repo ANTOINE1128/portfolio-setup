@@ -1,164 +1,93 @@
-<a name="Portfolio-setup-mobile-first"></a>
+# Portfolio-Website
 
-  <h1><b>portfolio-setup</b></h1>
+## Built With
 
-</div>
+- HTML
+- CSS
 
-# 📗 Table of Contents
+## Additional Tools
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- WebHint
+- Stylelint
+- Node Packet Manager
 
-# 📖 [portfolio-setup] <a name="about-project"></a>
+## Getting Started
 
-> Describe your project in 1 or 2 sentences.
-
-**[portfolio-setup]** is a project , in it I created a homepage of my portfolio . 
-
-## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    
-  </ul>
-</details>
-
-### Key Features <a name="key-features"></a>
-
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 💻 Getting Started <a name="getting-started"></a>
-
-To get a local copy up and running, follow these steps.
+To get a local copy of this project up and running on your local machine follow the steps below.
 
 ### Prerequisites
 
-In order to clone this project you need:
- ### Setup
--  go to your terminal 
-- write this command line : git clone https://github.com/ANTOINE1128/portfolio-setup 
+- A text editor 
+- A terminal
+- A web browser to view output e.g Google Chrome
+- An IDE e.g Visual studio code
 
-Clone this repository to your desired folder:
+### Setup
 
-### Install
+- Clone this repository or download the Zip folder:
 
-Install this project with:
+```
+git clone  git clone https://github.com/ANTOINE1128/portfolio-setup 
+```
+
+- Navigate to the location of the folder in your machine:
 
 
+**``you@your-Pc-name:~$ cd Portfolio-Website``**
 
 ### Usage
 
-To run the project, execute the following command:
-### Run tests
+- After Cloning this repo to your local machine
+- Download all the dependencies run:
+```
+npm install
+```
 
-To run tests, run the following command:
+### Run Tests
+To track linter errors locally follow these steps:  
 
+- Track HTML linter errors run:
+```
+npx hint .
+```
+- Track CSS linter errors run:
+```
+npx stylelint "**/*.{css,scss}"
+```
+- Track JavaScript linter errors run:
+```
+npx eslint .
+```
+- To get it running on your default browser and local host, run:
+```
+npm start
+```
 
-### Deployment
+## Author
 
-You can deploy this project using:
+- GitHub: [@AdnanOlarmmi](https://github.com/adnanolarmmi)
+- Twitter: [@AdnanIshaqOla](https://twitter.com/AdnanIshaqOla)
+- LinkedIn: [Adnan (Olamilekan) Is-haq](https://linkedin.com/in/adnan-is-haq-olamilekan)
+## Credits
 
+- I thank Allah for seeing me through.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+## Contributing
 
-
-
-## 👥 Authors <a name="authors"></a>
-
-
-
-👤 **Antoine Makdessy**
-
-- GitHub: [@ANTOINE1128](https://github.com/ANTOINE1128)
-- Twitter: [@TonyMakdessy](https://twitter.com/@TonyMakdessy)
-- LinkedIn: [@TonyMakdessy](https://linkedin.com/in/@TonyMakdessy)
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 🔭 Future Features <a name="future-features"></a>
-
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## 🤝 Contributing <a name="contributing"></a>
-I want to thank 
 Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/AdnanOlarmmi/Portfolio-Website/issues).
 
-Feel free to check the [issues page](../../issues/).
+## Show your support
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Give a ⭐️ if you like this project and how we manage to build it!
 
+## Acknowledgments
 
+- Thanks to the Microverse team for the great curriculum.
+- Thanks to the Code Reviewer(s) for the insightful feedbacks.
+- A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
+- Hat tip to anyone whose code was used.
 
-## ⭐️ Show your support <a name="support"></a>
+## 📝 License
 
-
-If you like this project...
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-
-I would like to thank my coding partner @akezeth  and my code reviewer @AdnanOlarmmi
-for helping me in this project.
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>[Question 1] Tell us a bit about the latest project you worked on. Was it completed successfully?]**
-
-[NO this project is not complete yet.But it has no linters error found and all the checks have passed by GITHUB.Software projects almost always face roadblocks and complications, and being able to identify obstacles, solve issues quickly and efficiently, and get the job done properly and within deadline is a key attribute for a software engineer/developer. ]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+This project is [MIT](./LICENSE) licensed
