@@ -1,93 +1,102 @@
-# Portfolio-Website
+<a name="Portfolio-setup-mobile-first"></a>
 
-## Built With
+  <h1><b>portfolio-setup</b></h1>
 
-- HTML
-- CSS
+</div>
 
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
+
+# 📖 [portfolio-setup] <a name="about-project"></a>
+
+**[portfolio-setup]**  a setup ,  of my homepage portfolio . 
+
+## 🛠 Built With <a name="built-with"></a>
+
+- **[CSS]**
+- **[html]**
+- **[figma]**
 ## Additional Tools
 
 - WebHint
 - Stylelint
 - Node Packet Manager
 
-## Getting Started
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-To get a local copy of this project up and running on your local machine follow the steps below.
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://google.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-- A text editor 
-- A terminal
-- A web browser to view output e.g Google Chrome
-- An IDE e.g Visual studio code
+In order to clone this project you need:
+ ### Setup
+-  go to your terminal 
+- write this command line : 
 
-### Setup
+git clone https://github.com/ANTOINE1128/portfolio-setup 
 
-- Clone this repository or download the Zip folder:
+- Clone this repository to your desired folder:
 
-```
-git clone  git clone https://github.com/ANTOINE1128/portfolio-setup 
-```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Navigate to the location of the folder in your machine:
+## 👥 Authors <a name="authors"></a>
+
+👤 **Antoine Makdessy**
+
+- GitHub: [@ANTOINE1128](https://github.com/ANTOINE1128)
+- Twitter: [@TonyMakdessy](https://twitter.com/@TonyMakdessy)
+- LinkedIn: [@TonyMakdessy](https://linkedin.com/in/@TonyMakdessy)
 
 
-**``you@your-Pc-name:~$ cd Portfolio-Website``**
+## 🔭 Future Features <a name="future-features"></a>
 
-### Usage
+- [add more pages ] 
+- [ add styling]
+- [add coding playground to it where where visitors can interact with ]
 
-- After Cloning this repo to your local machine
-- Download all the dependencies run:
-```
-npm install
-```
 
-### Run Tests
-To track linter errors locally follow these steps:  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-- Track HTML linter errors run:
-```
-npx hint .
-```
-- Track CSS linter errors run:
-```
-npx stylelint "**/*.{css,scss}"
-```
-- Track JavaScript linter errors run:
-```
-npx eslint .
-```
-- To get it running on your default browser and local host, run:
-```
-npm start
-```
 
-## Author
 
-- GitHub: [@AdnanOlarmmi](https://github.com/adnanolarmmi)
-- Twitter: [@AdnanIshaqOla](https://twitter.com/AdnanIshaqOla)
-- LinkedIn: [Adnan (Olamilekan) Is-haq](https://linkedin.com/in/adnan-is-haq-olamilekan)
-## Credits
+## ⭐️ Show your support <a name="support"></a>
 
-- I thank Allah for seeing me through.
+Give a ⭐️ if you like this project 
 
-## Contributing
 
-Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/AdnanOlarmmi/Portfolio-Website/issues).
-
-## Show your support
-
-Give a ⭐️ if you like this project and how we manage to build it!
-
-## Acknowledgments
-
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
 - Thanks to the Microverse team for the great curriculum.
 - Thanks to the Code Reviewer(s) for the insightful feedbacks.
 - A great thanks to My coding partner(s), morning session team, and standup team for their contributions.
-- Hat tip to anyone whose code was used.
 
-## 📝 License
 
-This project is [MIT](./LICENSE) licensed
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
