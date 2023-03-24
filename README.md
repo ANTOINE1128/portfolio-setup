@@ -28,7 +28,7 @@
 
 # 📖 [portfolio-setup] <a name="about-project"></a>
 
-**[portfolio-setup]**  a setup ,  of my homepage portfolio . 
+**[portfolio-setup]**  this is a project of my portfolio ,in which I have created a just a homepage , but it will get better soon ! :)
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -42,8 +42,6 @@
 - Stylelint
 - Node Packet Manager
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[use html for the design ]**
 - **[use css for the styling ]**
@@ -92,7 +90,7 @@ git clone https://github.com/ANTOINE1128/portfolio-setup
 - [ add styling]
 - [add coding playground to it where where visitors can interact with ]
 
-🤝 Contributing <a name="contributing"></a>
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 Feel free to check the [issues page](../../issues/).
