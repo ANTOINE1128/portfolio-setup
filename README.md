@@ -35,11 +35,22 @@
 - **[CSS]**
 - **[html]**
 - **[figma]**
+
 ## Additional Tools
 
 - WebHint
 - Stylelint
 - Node Packet Manager
+### Key Features <a name="key-features"></a>
+
+> Describe between 1-3 key features of the application.
+
+- **[use html for the design ]**
+- **[use css for the styling ]**
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -81,6 +92,10 @@ git clone https://github.com/ANTOINE1128/portfolio-setup
 - [ add styling]
 - [add coding playground to it where where visitors can interact with ]
 
+🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
