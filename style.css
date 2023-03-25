@@ -1,3 +1,8 @@
+section {
+  size: 375px;
+  width: 99.999999%;
+}
+
 .toolbar {
   background-color: #3c3a39;
   display: flex;
