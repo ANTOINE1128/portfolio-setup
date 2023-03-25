@@ -1,9 +1,8 @@
 .toolbar {
   background-color: #3c3a39;
   display: flex;
-  padding: 16px;
-  padding-top: 30px;
-  margin: 0;
+  padding: 19px;
+  padding-top: 15px;
   justify-content: space-between;
 }
 
@@ -11,8 +10,8 @@
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
+  font-weight: 6;
+  font-size: 19px;
   text-decoration: none;
 }
 
@@ -22,8 +21,8 @@
   margin: 0;
   width: 375px;
   position: relative;
-  height: 6844px;
-  border-top-right-radius: 0%;
+  height: 44px;
+  flex-wrap: wrap;
 }
 
 .first-section {
@@ -31,20 +30,21 @@
   background-color: #1c1a19;
   display: flex;
   height: calc(100vh - 45px);
-  margin: 0;
-  padding: 0 24px;
+  padding: 0 4px;
   background-image: url("img/Group.png");
   background-repeat: no-repeat;
-  background-position: bottom -50px right;
+  background-position: bottom -1px right;
   flex-direction: column;
 }
 
 .first-section .name {
-  margin: 0;
+  margin-top: 6%;
   font-family: 'Crete Round', sans-serif;
   font-style: normal;
   color: #ff6b00;
   font-size: 50px;
+  order: 0;
+  position: left;
 }
 
 .first-section .job-title {
@@ -53,22 +53,25 @@
   font-style: normal;
   font-size: 24px;
   color: #fff5e1;
+  order: 1;
 }
 
 .first-section .social-media {
   display: flex;
-  font-size: 24px;
+  font-size: 22px;
   width: 180px;
   list-style: none;
   padding: 0;
   margin: 0;
   justify-content: space-between;
+  order: 4;
 }
 
 .first-section .job {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  font-size: 18px;
+  font-weight: 10px;
+  line-height: 14px;
+  order: 1;
 }
