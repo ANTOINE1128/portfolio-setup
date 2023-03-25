@@ -1,22 +1,10 @@
-* {
-  padding: 0;
-  box-sizing: border-box;
-}
-
-ul {
-  list-style-type: none;
-}
-
 .toolbar {
   background-color: #3c3a39;
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  min-height: 90px;
-  padding-left: 24px;
-  padding-right: 35px;
+  padding: 16px;
+  padding-top: 30px;
+  margin: 0;
   justify-content: space-between;
-  align-items: center;
 }
 
 #logo {
@@ -24,69 +12,63 @@ ul {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 18px;
   text-decoration: none;
 }
 
-.headline {
+/* body design */
+
+.body {
+  margin: 0;
+  width: 375px;
   position: relative;
+  height: 6844px;
+  border-top-right-radius: 0%;
+}
+
+.first-section {
+  color: white;
   background-color: #1c1a19;
   display: flex;
+  height: calc(100vh - 45px);
+  margin: 0;
+  padding: 0 24px;
+  background-image: url("img/Group.png");
+  background-repeat: no-repeat;
+  background-position: bottom -50px right;
   flex-direction: column;
-  width: 100%;
-  padding: 120px 24px;
 }
 
-h1 {
-  width: 327px;
-  height: 224px;
-  color: #ff6b00;
-  font-family: 'Crete Round', Georgia, Times, 'Times New Roman', serif;
+.first-section .name {
+  margin: 0;
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
-  font-weight: 400;
-  font-size: 56px;
-  line-height: 64px;
-  letter-spacing: 0.37px;
+  color: #ff6b00;
+  font-size: 50px;
 }
 
-.job-title {
-  width: 327px;
-  height: 39px;
-  color: #fff;
+.first-section .job-title {
+  margin: 0;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 700;
   font-size: 24px;
-  padding-top: 12px;
+  color: #fff5e1;
 }
 
-.info {
-  width: 327px;
-  height: 147px;
-  color: #fff;
-  font-family: 'Poppins', 'Trebuchet MS', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  padding-top: 12px;
-}
-
-.socialmedia {
-  width: 200px;
-  height: 40px;
+.first-section .social-media {
   display: flex;
-  padding-top: 29px;
-  justify-content: space-around;
+  font-size: 24px;
+  width: 180px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
 }
 
-.background-image {
-  background: url('img/group1.png');
-  width: 406.89px;
-  height: 312.03px;
-  background-repeat: no-repeat;
-  position: fixed;
-  bottom: -70px;
-  left: 230px;
-  border: 1;
+.first-section .job {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
 }
