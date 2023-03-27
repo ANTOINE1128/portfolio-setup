@@ -2,7 +2,8 @@ body {
   width: 375px;
   position: relative;
   height: 6844px;
-  border-top-left-radius: 0%
+  border-top-left-radius: 0%;
+  margin: 0;
 }
 
 .toolbar {
@@ -82,7 +83,9 @@ body {
   line-height: 14px;
   order: 1;
 }
+
 /* -----Work section----- */
+
 .work-section {
   padding: 0 25px;
 }
@@ -220,9 +223,6 @@ body {
 /* -----Work section-----end */
 
 /* -------About me------- */
-body {
-  margin: 0;
-}
 
 .about-me-section {
   padding: 0 24px;
