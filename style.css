@@ -45,10 +45,10 @@ body {
   flex-direction: column;
 }
 
- .name {
+.name {
   margin-top: 40%;
   margin-bottom: 0;
-  font-family: 'Crete Round';
+  font-family: 'Crete Round', sans-serif;
   font-style: normal;
   color: #ff6b00;
   font-size: 56px;
