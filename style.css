@@ -20,7 +20,7 @@ body {
   font-style: normal;
   font-weight: 6;
   font-size: 19px;
-  text-decoration: none;
+  text-decoration: dotted;
 }
 
 /* body design */
@@ -37,22 +37,25 @@ body {
   color: white;
   background-color: #1c1a19;
   display: flex;
-  height: calc(100vh - 45px);
-  padding: 0 4px;
+  height: calc(69vh);
+  padding: 0 1px;
   background-image: url("img/Group.png");
   background-repeat: no-repeat;
-  background-position: bottom -1px right;
+  background-position: bottom 20% right;
   flex-direction: column;
 }
 
-.first-section .name {
-  margin-top: 6%;
-  font-family: 'Crete Round', sans-serif;
+ .name {
+  margin-top: 40%;
+  margin-bottom: 0;
+  font-family: 'Crete Round';
   font-style: normal;
   color: #ff6b00;
-  font-size: 50px;
+  font-size: 56px;
+  font-weight: 33;
   order: 0;
-  position: left;
+  letter-spacing: 3px;
+  line-height: 64px;
 }
 
 .first-section .job-title {
@@ -72,13 +75,13 @@ body {
   padding: 0;
   margin: 0;
   justify-content: space-between;
-  order: 4;
+  order: 5;
 }
 
 .first-section .job {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
-  font-size: 19px;
+  font-size: 15px;
   font-weight: 10px;
   line-height: 14px;
   order: 1;
@@ -253,7 +256,8 @@ body {
   font-size: 72px;
   line-height: 88px;
   color: #ff6b00;
-  margin: 0;
+  margin-top: 20%;
+  margin-bottom: 0;
 }
 
 .about-me-section .summary {
