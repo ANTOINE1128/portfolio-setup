@@ -234,6 +234,9 @@ body {
   background-image: url("img/Frame.png");
   background-repeat: no-repeat;
   background-position: right 70vh;
+  display: flexbox;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .about-me-section .grid-wrapper {
