@@ -1,7 +1,13 @@
+* {
+  /* stylelint-disable length-zero-no-unit */
+
+  margin: 0;
+}
+
 body {
   width: 100%;
   position: relative;
-  height: 100vh;
+  height: 12em;
   border-top-left-radius: 0%;
   margin: 0;
 }
@@ -236,7 +242,7 @@ body {
   background-image: url("img/Frame.png");
   background-repeat: no-repeat;
   background-position: right 70vh;
-  display: flexbox;
+  display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -352,8 +358,6 @@ body {
   margin-top: 100px;
   padding: 0 24px;
   flex-direction: column;
- 
-  
 }
 
 .contact-section .contact-description {
@@ -366,37 +370,29 @@ body {
   color: #172b4d;
 }
 
-.contact-section ul {
+ul .contact-section {
   display: flex;
- flex-direction: column;
- gap: 20px;
-
+  flex-direction: column;
+  gap: 20px;
 }
-.contact-section li {
+
+li .contact-section {
   padding: 10px;
   align-items: center;
- 
+  list-style: none;
 }
 
-                    
-.contact-section li::after{
+.contact-section li::after {
   content: "";
-  width:250px ;
+  width: 250px;
   height: 1px;
-  background:#DBD8D7;
+  background: #dbd8d7;
   display: block;
 }
-.contact-section li {
-  list-style: none;
 
-}
 .contact-section input {
-border: none;
-padding-bottom: 20px;
-
-
-
-
+  border: none;
+  padding-bottom: 20px;
 }
 
 .contact-section input::placeholder {
@@ -405,35 +401,38 @@ padding-bottom: 20px;
 }
 
 #comment {
-  background-color: #DBD8D7;
+  background-color: #dbd8d7;
   margin-top: 30%;
 }
 
 #comment input::placeholder {
-width: 303px;
-height:90px;
+  width: 303px;
+  height: 90px;
 }
+
 .getintouch {
-  
   margin: 25% auto;
   color: white;
   background-color: #e05304;
   height: 3%;
   width: 35%;
 }
-button {
-    padding-top: 0px;
-    border-top-width: 0px;
-    padding-left: 0px;
-    border-left-width: 0px;
-    padding-right: 0px;
-    border-right-width: 0px;
-    padding-bottom: 0px;
-    border-bottom-width: 1px;
+
+button .contact-section {
+  padding-top: 0;
+  border-top-width: 0;
+  padding-left: 0;
+  border-left-width: 0;
+  padding-right: 0;
+  border-right-width: 0;
+  padding-bottom: 0;
+  border-bottom-width: 1px;
 }
+
 /* ---Contact section---end */
+
 /* ---footer section--- */
-.footer-section .social-links{
+.footer-section .social-links {
   position: absolute;
   display: flex;
   font-size: 22px;
@@ -441,17 +440,14 @@ button {
   margin-left: 25%;
   margin-top: -57px;
   justify-content: space-between;
-  
-  
 }
+
 hr {
- width: 25%;
- height: 1.5px;
- background-color: #0D151E; 
- margin-top: 10%;
-
+  width: 25%;
+  height: 1.5px;
+  background-color: #0d151e;
+  margin-top: 10%;
 }
-
 
 /* Mobile first CSS model */
 @media all and (min-width: 375px) {
