@@ -1,7 +1,7 @@
 body {
-  width: 375px;
+  width: 100%;
   position: relative;
-  height: 6844px;
+  height: 100vh;
   border-top-left-radius: 0%;
   margin: 0;
 }
@@ -27,7 +27,7 @@ body {
 
 .body {
   margin: 0;
-  width: 375px;
+  width: 100%;
   position: relative;
   height: 44px;
   flex-wrap: wrap;
@@ -46,16 +46,18 @@ body {
 }
 
 .name {
-  margin-top: 40%;
-  margin-bottom: 0;
-  font-family: 'Crete Round', sans-serif;
+  width: 87.2%;
+  height: fit-content;
+  font-family: "Crete Round", sans-serif;
   font-style: normal;
-  color: #ff6b00;
+  font-weight: 400;
   font-size: 56px;
-  font-weight: 33;
-  order: 0;
-  letter-spacing: 3px;
   line-height: 64px;
+  letter-spacing: 0.37px;
+  color: #ff6b00;
+  margin-bottom: 0;
+  overflow: hidden;
+  margin-top: 12;
 }
 
 .first-section .job-title {
@@ -342,83 +344,114 @@ body {
 /* -------About me-------end */
 
 /* ---Contact section--- */
+
 .contact-section {
   display: flex;
   height: calc(100vh + 120px);
   margin: 0;
-  margin-top: 120px;
+  margin-top: 100px;
   padding: 0 24px;
   flex-direction: column;
+ 
+  
 }
 
-.contact-section h3 {
+.contact-section .contact-description {
   font-family: 'Inter', sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 700px;
   font-size: 30px;
   line-height: 44px;
   text-align: center;
   color: #172b4d;
 }
 
-.contact-section .contact-form ul {
-  list-style: none;
-  padding: 0;
-}
-
-.contact-section .contact-form .input-field {
-  width: 100%;
-  margin-bottom: 24px;
-  outline: none;
-  border: none;
-  border-bottom: 2px solid #adadad;
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 15px;
-  line-height: 24px;
-}
-
-.contact-section .contact-form .text-area {
-  background-color: #fbf8f7;
-  border: none;
-}
-
-.contact-section .contact-form .con-btn {
+.contact-section ul {
   display: flex;
-  flex-direction: column;
+ flex-direction: column;
+ gap: 20px;
+
+}
+.contact-section li {
+  padding: 10px;
   align-items: center;
+ 
 }
 
-/* ---Contact section---end */
-
-.footer-section {
-  margin-top: 100px;
+                    
+.contact-section li::after{
+  content: "";
+  width:250px ;
+  height: 1px;
+  background:#DBD8D7;
+  display: block;
 }
-
-.footer-section .social .social-link {
-  padding: 0 11px;
-  text-decoration: none;
-  margin: 25px 0;
-  color: #505f79;
-}
-
-.footer-section .social .social-link:hover {
-  color: #282b30;
-}
-
-.footer-section .social {
-  display: flex;
-  font-size: 24px;
-  padding: 0 24px;
+.contact-section li {
   list-style: none;
-  margin: 0;
-  justify-content: center;
+
+}
+.contact-section input {
+border: none;
+padding-bottom: 20px;
+
+
+
+
 }
 
-.footer-section hr {
-  color: #dfe1e6;
+.contact-section input::placeholder {
+  width: 400px;
+  height: 222px;
 }
+
+#comment {
+  background-color: #DBD8D7;
+  margin-top: 30%;
+}
+
+#comment input::placeholder {
+width: 303px;
+height:90px;
+}
+.getintouch {
+  
+  margin: 25% auto;
+  color: white;
+  background-color: #e05304;
+  height: 3%;
+  width: 35%;
+}
+button {
+    padding-top: 0px;
+    border-top-width: 0px;
+    padding-left: 0px;
+    border-left-width: 0px;
+    padding-right: 0px;
+    border-right-width: 0px;
+    padding-bottom: 0px;
+    border-bottom-width: 1px;
+}
+/* ---Contact section---end */
+/* ---footer section--- */
+.footer-section .social-links{
+  position: absolute;
+  display: flex;
+  font-size: 22px;
+  width: 180px;
+  margin-left: 25%;
+  margin-top: -57px;
+  justify-content: space-between;
+  
+  
+}
+hr {
+ width: 25%;
+ height: 1.5px;
+ background-color: #0D151E; 
+ margin-top: 10%;
+
+}
+
 
 /* Mobile first CSS model */
 @media all and (min-width: 375px) {
