@@ -403,6 +403,10 @@ li .contact-section {
 #comment {
   background-color: #dbd8d7;
   margin-top: 30%;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 0px;
+  padding-bottom: 0px;
 }
 
 #comment input::placeholder {
