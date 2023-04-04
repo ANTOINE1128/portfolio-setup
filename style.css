@@ -391,7 +391,7 @@ form .input {
 }
 
 textarea {
-  padding-left: 1.2rem
+  padding-left: 1.2rem;
 }
 
 #getintouch {
@@ -403,22 +403,22 @@ textarea {
   font-family: 'Inter', sans-serif;
   width: 100px;
   height: 48px;
-  border: 0px;
+  border: 0;
   margin-left: 134px;
   margin-top: 15px;
 }
 
 #getintouch:hover {
-  border: 1px solid  #FF6B00;
-background-color: #ffcca7;
-color: #FF6B00;
-}
-#getintouch:active {
-  border: 1px solid  #d45b04;
-background-color: #d45b04;
-color: #ffcca7;
+  border: 1px solid  #ff6b00;
+  background-color: #ffcca7;
+  color: #ff6b00;
 }
 
+#getintouch:active {
+  border: 1px solid  #d45b04;
+  background-color: #d45b04;
+  color: #ffcca7;
+}
 
 /* ---Contact section---end */
 
