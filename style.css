@@ -402,6 +402,14 @@ form .input {
   margin-top: 15px;
 }
 
+#getintouch:hover {
+  border: 2px solid blue;
+}
+
+#getintouch:active {
+  background-color: grey;
+}
+
 /* ---Contact section---end */
 
 /* ---footer section--- */
