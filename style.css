@@ -383,11 +383,14 @@ form .input {
 }
 
 #comment {
-  width: 313px;
+  width: 296px;
   height: 100px;
   margin-left: 31px;
   background-color: #fbf8f7;
   border: 0;
+}
+textarea {
+  padding-left: 1.2rem
 }
 
 #getintouch {
