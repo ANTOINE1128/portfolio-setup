@@ -361,45 +361,45 @@ body > div > main > form > h3 {
   font-size: 25px;
   line-height: 43px;
   text-align: center;
-  color: #172B4E;
+  color: #172b4e;
   width: 314px;
   margin-left: 36px;
 }
 
 form .input {
-  border:0px;
+  border: 0;
   border-bottom: 3px solid;
-  border-color: #DBD8D7;
+  border-color: #dbd8d7;
   padding: 20px;
-  padding-left: 0px;
+  padding-left: 0;
   padding-right: 144px;
   margin-left: 32px;
-  
 }
 
 .input::placeholder {
   text-align: left;
   size: 17px;
 }
+
 #comment {
   width: 311px;
   height: 100px;
   margin-left: 30px;
-  background-color: #FBF8F7;
+  background-color: #fbf8f7;
 }
+
 #getintouch {
-  background-color: #FF6B00;
+  background-color: #ff6b00;
   padding: 12px;
   color: white;
   font-size: 13px;
   font-weight: bold;
-  font-family:'Inter', sans-serif;
+  font-family: 'Inter', sans-serif;
   width: 100px;
   height: 48px;
-  border: 0px;
+  border: 0;
   margin-left: 134px;
   margin-top: 15px;
-
 }
 
 /* ---Contact section---end */
@@ -414,10 +414,12 @@ form .input {
   margin-top: 100px;
   justify-content: space-between;
 }
+
 .shape {
   height: 3px;
   width: 100px;
 }
+
 /* Mobile first CSS model */
 @media all and (min-width: 375px) {
   .nav-bar ul {
