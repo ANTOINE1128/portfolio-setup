@@ -406,18 +406,21 @@ form .input {
 
 /* ---footer section--- */
 .footer-section .social-links {
-  position: absolute;
   display: flex;
   font-size: 22px;
   width: 180px;
-  margin-left: 25%;
+  margin-left: 17%;
   margin-top: 100px;
   justify-content: space-between;
+  order: 1;
 }
 
 .shape {
+  margin-top: 20px;
+  margin-left: 130px;
   height: 3px;
   width: 100px;
+  order: 0;
 }
 
 /* Mobile first CSS model */
