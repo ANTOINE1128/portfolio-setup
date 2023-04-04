@@ -379,6 +379,7 @@ form .input {
 .input::placeholder {
   text-align: left;
   size: 1.9em;
+  padding-left: 20px;
 }
 
 #comment {
