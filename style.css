@@ -378,14 +378,15 @@ form .input {
 
 .input::placeholder {
   text-align: left;
-  size: 17px;
+  size: 1.9em;
 }
 
 #comment {
-  width: 311px;
+  width: 256px;
   height: 100px;
-  margin-left: 30px;
+  margin-left: 49px;
   background-color: #fbf8f7;
+  border: 0px;
 }
 
 #getintouch {
@@ -397,17 +398,13 @@ form .input {
   font-family: 'Inter', sans-serif;
   width: 100px;
   height: 48px;
-  border: 0;
+  border: 0px;
   margin-left: 134px;
   margin-top: 15px;
 }
 
 #getintouch:hover {
   border: 2px solid blue;
-}
-
-#getintouch:active {
-  background-color: grey;
 }
 
 /* ---Contact section---end */
