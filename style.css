@@ -389,6 +389,7 @@ form .input {
   background-color: #fbf8f7;
   border: 0;
 }
+
 textarea {
   padding-left: 1.2rem
 }
@@ -402,14 +403,22 @@ textarea {
   font-family: 'Inter', sans-serif;
   width: 100px;
   height: 48px;
-  border: 0;
+  border: 0px;
   margin-left: 134px;
   margin-top: 15px;
 }
 
 #getintouch:hover {
-  border: 2px solid blue;
+  border: 1px solid  #FF6B00;
+background-color: #ffcca7;
+color: #FF6B00;
 }
+#getintouch:active {
+  border: 1px solid  #d45b04;
+background-color: #d45b04;
+color: #ffcca7;
+}
+
 
 /* ---Contact section---end */
 
