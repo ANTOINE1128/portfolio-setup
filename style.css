@@ -34,6 +34,19 @@ header .logo {
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
+  animation: logo-appear 700ms ease-in 1 normal forwards;
+  animation-delay: 900ms;
+  opacity: 0%;
+}
+
+@keyframes logo-appear {
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
 }
 
 .letter-icon {
@@ -97,6 +110,11 @@ h1 {
   font-weight: 400;
   font-size: 3.5rem;
   line-height: 4rem;
+  transition: font-size 500ms;
+}
+
+h1:hover {
+  font-size: 4rem;
 }
 
 .job-title {
@@ -123,6 +141,22 @@ h1 {
   display: flex;
   margin-top: 30px;
   justify-content: space-around;
+}
+
+.socialmedia img {
+  transform: translateX(0);
+  transition: transform 500ms;
+}
+
+.work1Image img {
+  width: 92%;
+  margin-left: 9%;
+  transition: transform 500ms;
+  transform: rotateZ(0deg);
+}
+
+.socialmedia img:hover {
+  transform: translateX(20px);
 }
 
 /* background image for headline */
@@ -180,9 +214,8 @@ h1 {
   justify-items: center;
 }
 
-.work1Image img {
-  width: 92%;
-  margin-left: 9%;
+img:hover .work1Image {
+  transform: rotateZ(360deg);
 }
 
 /* Heading for Work1 title */
