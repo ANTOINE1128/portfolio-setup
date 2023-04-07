@@ -99,8 +99,9 @@ h1 {
   line-height: 4rem;
   transition: font-size 500ms;
 }
-h1:hover{
-font-size: 4rem ;
+
+h1:hover {
+  font-size: 4rem;
 }
 
 .job-title {
@@ -187,14 +188,14 @@ font-size: 4rem ;
 .work1Image img {
   width: 92%;
   margin-left: 9%;
-  transition: transform 500ms ;
+  transition: transform 500ms;
   transform: rotateZ(0deg);
 }
-.work1Image img:hover{
-transform: rotateZ(360deg);
 
-
+.work1Image img:hover {
+  transform: rotateZ(360deg);
 }
+
 /* Heading for Work1 title */
 .work1Title {
   width: 100%;
@@ -674,10 +675,7 @@ button[type=submit]:disabled {
     width: 100%;
     padding-left: 10%;
     margin-top: -5%;
-
   }
-
-
 
   .aboutMeDescription {
     width: 44%;
