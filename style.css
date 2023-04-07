@@ -374,7 +374,6 @@ h1 {
   padding: 7.5rem 1.5rem;
   position: relative;
   margin: 0 auto;
-  
 }
 
 .aboutMeTitle {
@@ -665,19 +664,20 @@ button[type=submit]:disabled {
     width: 100%;
     padding-left: 10%;
     margin-top: -5%;
-    
   }
 
   .aboutMeDescription {
     width: 44%;
   }
-.ulList {
-  text-align: start;
-  
-}
-.experience ul {
-  line-height: 50px;
-}
+
+  .ulList {
+    text-align: start;
+  }
+
+  .experience ul {
+    line-height: 50px;
+  }
+
   .background-img2 {
     background-image: url('images/aboutMebackgroundDesk.png');
     background-size: contain;
@@ -720,7 +720,7 @@ button[type=submit]:disabled {
     text-align: initial;
     font-size: 31px;
     line-height: 140%;
-    color: rgba(38, 38, 38, 1) ;
+    color: rgba(38, 38, 38, 1);
   }
 
   body > section:nth-child(5) > div > div.contactIntro {
@@ -736,10 +736,6 @@ button[type=submit]:disabled {
 
   button[type=submit] {
     margin-right: 71%;
-  }
-  .contactForm {
-
-
   }
 }
 
