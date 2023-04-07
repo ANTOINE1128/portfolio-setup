@@ -718,8 +718,8 @@ button[type=submit]:disabled {
   .contactIntro {
     width: 29ch;
     text-align: initial;
-    font-size: 31px;
-    line-height: 140%;
+    font-size: 29px;
+    line-height: 120%;
     color: rgba(38, 38, 38, 1);
   }
 
