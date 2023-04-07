@@ -39,7 +39,7 @@ header .logo {
   opacity: 0%;
 }
 
-@keyframes logo-appear{
+@keyframes logo-appear {
   from {
     opacity: 0%;
   }
@@ -47,7 +47,7 @@ header .logo {
   to {
     opacity: 100%;
   }
-} 
+}
 
 .letter-icon {
   display: none;
@@ -142,10 +142,19 @@ h1:hover {
   margin-top: 30px;
   justify-content: space-around;
 }
+
 .socialmedia img {
-  transform: translateX(0px);
+  transform: translateX(0);
   transition: transform 500ms;
 }
+
+.work1Image img {
+  width: 92%;
+  margin-left: 9%;
+  transition: transform 500ms;
+  transform: rotateZ(0deg);
+}
+
 .socialmedia img:hover {
   transform: translateX(20px);
 }
@@ -205,14 +214,7 @@ h1:hover {
   justify-items: center;
 }
 
-.work1Image img {
-  width: 92%;
-  margin-left: 9%;
-  transition: transform 500ms;
-  transform: rotateZ(0deg);
-}
-
-.work1Image img:hover {
+img:hover .work1Image {
   transform: rotateZ(360deg);
 }
 
