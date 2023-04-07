@@ -34,7 +34,20 @@ header .logo {
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
+  animation: logo-appear 700ms ease-in 1 normal forwards;
+  animation-delay: 900ms;
+  opacity: 0%;
 }
+
+@keyframes logo-appear{
+  from {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+} 
 
 .letter-icon {
   display: none;
@@ -128,6 +141,13 @@ h1:hover {
   display: flex;
   margin-top: 30px;
   justify-content: space-around;
+}
+.socialmedia img {
+  transform: translateX(0px);
+  transition: transform 500ms;
+}
+.socialmedia img:hover {
+  transform: translateX(20px);
 }
 
 /* background image for headline */
