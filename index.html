@@ -1,191 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Home page</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" media="only screen and (max-width: 768px)">
+  
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
 </head>
 <body>
-    <div class="container">
-
-    
-    <header class="toolbar">
-      <a href="#" id="logo">My Logo</a>
-      <nav id="menu">
-        <a href="#"><img src="img/menu-icon.png" alt="menu icon"></a>
-      </nav>
-    </header>
-  <main class="main">
-    <section class="first-section">
-      <h1 class="name">Hey There.I'm Antoine.</h1>
-      <h3 class="job-title">I'm a Software Developer</h3>
-      <div class="social-media">
-        <a href="https://twitter.com/TonyMakdessy"><img src="img/Vector 3.png" alt="twitter icon"></a>
-        <a href="https://www.linkedin.com/in/antoine-makdessy/"><img src="img/Icon - Linkedin.png" alt="linkedin icon"></a>
-        <a href="https://github.com/ANTOINE1128"><img src="img/Vector.png" alt="github icon"></a>
-        <a href="#"><img src="img/Vector 2.png" alt="angellist icon"></a>
-      </div>
-      <p class="job">I can help you build a product, feature, or website. Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.</p>
+    <section class="all">
+    <!-- header section -->
+    <header>
+        <a href="#" class="logo">My logo</a>
+        <nav>
+            <div class="barsIcon"><i class="uil uil-bars"></i></div>
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about-me">About</a></li>
+                <li><a href="#contact-me">Contact</a></li>
+                <li><a href="email"><i class="uil uil-envelope"></i></a></li>
+                
+                <li> <img src="images/email.png" alt="letter" class="letter-icon" ></li>
+            </ul>
+        </nav>
+        <img src="images/menu-icon.png" alt="menu" class="menu">
+    </header>    
+    <!-- headline section -->
+    <section>
+        <div class="headline">
+            <div class="intro">
+                <h1>
+                    Hey There. <br>
+                    I'm Antoine.
+                </h1>
+                <h3 class="job-title">
+                    I'm a Software Developer
+                </h3>
+                <p class="info">
+                    I can help you build a product, feature or website Look through some of my 
+                    work and experience! If you like what you see and have a project you need coded, 
+                    don’t hestiate to contact me.
+                </p>
+            </div>
+            <!-- social media section -->
+            <div class="socialmedia">
+                <ul>
+                    <li>
+                        <a href="https://github.com/ANTOINE1128"><img src="images/github-icon.png" alt="Github"></a>
+                    </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/antoine-makdessy/"><img src="images/linkedin-icon.png" 
+                            alt="Linkedin"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/angelist-icon.png" alt="Angelist"></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/TonyMakdessy"><img src="images/twitter-icon.png" alt="Twitter"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/medium-icon.png" alt="Mediujm"></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="background-img" class="background-img"></div>
+        </div>
     </section>
+    <!-- Works section -->
+    <section>
+        <div class="works">
+            <div class="title">
+                <h2 class="recentWorks">
+                    My Recent Works
+                </h2>
+               <img src="images/hr1.png" alt="hr1" class="hr1">
+            </div>
 
-     <section class="work-section">
-            <h2 class="work-section-heading">My Recent Works</h2>
-            <div class="grid-wrapper">
-                <div class="project1">
-                    <img src="img/Img Placeholder.png" alt="sample image" class="project-img">
-                    <h3 class="project-name">Multi-Post Stories</h3>
-                    <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, 
-                        when an unknown printer took a standard dummy text.</p>
-                    <ul class="project-lang">
-                        <li>css</li>
-                        <li>html</li>
-                        <li>bootstrap</li>
-                        <li>Ruby</li>
+            <div class="work1">
+                <div class="work1Image">
+                   
+                    <img src="images/Img Placeholder.png" alt="image">
+                </div>
+                
+                <div class="work1Info">
+                    <h3 class="work1Title">
+                        Multi-Post Stories
+                    </h3>
+                    <p class="work1Description">
+                        A daily selection of privately personalized reads; no accounts or 
+                        sign-ups required. has been the industry's standard dummy text ever 
+                        since the 1500s, when an unknown printer took a standard dummy text.
+                    </p>
+                    <ul class="work1Languages">
+                        <li class="work1Button">CSS</li>
+                        <li class="work1Button">HTML</li>
+                        <li class="work1Button">Bootstrap</li>
+                        <li class="work1Button">Ruby</li>
                     </ul>
-                    <button type="button" class="half-btn">See Project</button>
+                    <a class="work1Link" href="">See project</a>
+                </div>
+            </div>
+            <div class="otherWorks">
+                <div class="work2">
+                    <div class="work2Info">
+                        <h3 class="work2Title">
+                            Profesional Art Printing Data
+                        </h3>
+                        <p class="work2Description">
+                            A daily selection of privately personalized reads; no accounts or 
+                            sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul class="work2Languages">
+                            <li class="work2Button">CSS</li>
+                            <li class="work2Button">HTML</li>
+                            <li class="work2Button">Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="projectLink">
+                        <a class="work2Link" href="">See project</a>
+                    </div>
+                </div>
+                <div class="work2">
+                    <div class="work2Info">
+                        <div class="background-imgw2"></div>
+                        <h3 class="work2Title">
+                            Profesional Art Printing Data
+                        </h3>
+                        <p class="work2Description">
+                            A daily selection of privately personalized reads; no accounts or 
+                            sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul class="work2Languages">
+                            <li class="work2Button">CSS</li>
+                            <li class="work2Button">HTML</li>
+                            <li class="work2Button">Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="projectLink">
+                        <a class="work2Link" href="">See project</a>
+                    </div>
+                    </div>
+                
+                <div class="work2">
+                    <div class="work2Info">
+                        <h3 class="work2Title">
+                            Profesional Art Printing Data
+                        </h3>
+                        <p class="work2Description">
+                            A daily selection of privately personalized reads; no accounts or 
+                            sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul class="work2Languages">
+                            <li class="work2Button">CSS</li>
+                            <li class="work2Button">HTML</li>
+                            <li class="work2Button">Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="projectLink">
+                        <a class="work2Link" href="">See project</a>
+                    </div>
+                </div>
+                <div class="work2">
+                    <div class="work2Info">
+                        <h3 class="work2Title">
+                            Profesional Art Printing Data
+                        </h3>
+                        <p class="work2Description">
+                            A daily selection of privately personalized reads; no accounts or 
+                            sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul class="work2Languages">
+                            <li class="work2Button">CSS</li>
+                            <li class="work2Button">HTML</li>
+                            <li class="work2Button">Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="projectLink">
+                        <a class="work2Link" href="">See project</a>
+                    </div>
+                </div>
+                <div class="work2">
+                    <div class="work2Info">
+                        <h3 class="work2Title">
+                            Profesional Art Printing Data
+                        </h3>
+                        <p class="work2Description">
+                            A daily selection of privately personalized reads; no accounts or 
+                            sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul class="work2Languages">
+                            <li class="work2Button">CSS</li>
+                            <li class="work2Button">HTML</li>
+                            <li class="work2Button">Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="projectLink">
+                        <a class="work2Link" href="">See project</a>
+                    </div>
+                </div>
+                <div class="work2">
+                    <div class="work2Info">
+                        <h3 class="work2Title">
+                            Profesional Art Printing Data
+                        </h3>
+                        <p class="work2Description">
+                            A daily selection of privately personalized reads; no accounts or 
+                            sign-ups required. Has been the industry's standard.
+                        </p>
+                        <ul class="work2Languages">
+                            <li class="work2Button">CSS</li>
+                            <li class="work2Button">HTML</li>
+                            <li class="work2Button">Bootstrap</li>
+                        </ul>
+                    </div>
+                    <div class="projectLink">
+                        <a class="work2Link" href="">See project</a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Me section -->
+    <section>
+        <div class="aboutMe">
+            <h2 class="aboutMeTitle">
+                About me
+            </h2>
+            <p class="aboutMeDescription">
+                Hello I’m a software developer! I can help you build a product, feature or 
+                website Look through some of my work and experience! If you like what you 
+                see and have a project you need coded, don’t hesitate to contact me.
+            </p>
 
+            <div class="resumeLinkContainer">
+                <a href="#"><button class="resumeLink" type="button">Get my resume</button></a>
+            </div>
+            <div id="background-img2" class="background-img2"></div>
+          
+            <img src="images/line2.png" alt="line" class="line2"> 
+            <hr>
+            <div class="experience">
+                <div class="language"> 
+                    
+                    <h3><img src="images/lagnuages-icon.png" alt="rombus">&nbsp;Language</h3>
+                    <ul><div class="ulList">
+                        <li>JavaScript</li>
+                        <li>Ruby</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                    </div></ul>
                 </div>
-                <div class="project2 project-sample">
-                    <div class="content-wrapper">
-                        <h3 class="project-name">Professional Art Printing Data</h3>
-                        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        <ul class="project-lang">
-                            <li>html</li>
-                            <li>bootstrap</li>
-                            <li>Ruby</li>
-                        </ul>
+                <div class="frameworks">
+                    <h3><img src="images/frameworks-icon.png" alt="square">&nbsp;Frameworks</h3>
+                    <ul><div class="ulList">
+                        <li>React.js</li>
+                        <li>Ruby on Rails</li>
+                        <li>RSpec</li>
+                        <li>Capybara</li>
+                    </div></ul>
+                </div>
+                <div class="skills">
+                    <h3><img src="images/skills-icon.png" alt="circle">&nbsp;Skills</h3>
+                    <ul><div class="ulList">
+                        <li>Database Management</li>
+                        <li>Version Control</li>
+                        <li>CLI</li>
+                        <li>API Design</li>
+                        <li>Web Development</li>
+                    </div></ul>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="contact">
+            <div class="contactIntro">
+                <p>
+                    I'm always interested in hearing about new projects, so if you'd like to 
+                    chat please get in touch.
+                </p>
+            </div>
+            <div class="contactForm">
+                <form action="https://formspree.io/f/moqzkbjd" method="post">
+                    
+                   
+                    <div class="fullnameInput">
+                        <input type="text" id="fname" name="fname" placeholder="Full Name" maxlength="30" required>
                     </div>
-                    <button type="button" class="full-btn">See Project</button>
-                </div>
-                <div class="project3 project-sample">
-                    <div class="content-wrapper">
-                        <h3 class="project-name">Professional Art Printing Data</h3>
-                        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        <ul class="project-lang">
-                            <li>html</li>
-                            <li>bootstrap</li>
-                            <li>Ruby</li>
-                        </ul>
+                    <div class="emailInput">
+                        <input type="email" id="email" name="email" placeholder="Enter email" required>
                     </div>
-                    <button type="button" class="full-btn">See Project</button>
-                </div>
-                <div class="project4 project-sample">
-                    <div class="content-wrapper">
-                        <h3 class="project-name">Professional Art Printing Data</h3>
-                        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        <ul class="project-lang">
-                            <li>html</li>
-                            <li>bootstrap</li>
-                            <li>Ruby</li>
-                        </ul>
+                    <div class="messageInput">
+                        <textarea name="Opinion" id="Opinion" maxlength="500" required placeholder="Write me something..."></textarea>
                     </div>
-                    <button type="button" class="full-btn">See Project</button>
-                </div>
-                <div class="project5 project-sample">
-                    <div class="content-wrapper">
-                        <h3 class="project-name">Professional Art Printing Data</h3>
-                        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        <ul class="project-lang">
-                            <li>html</li>
-                            <li>bootstrap</li>
-                            <li>Ruby</li>
-                        </ul>
+                    <div class="submitContainer">
+                        <button type="submit" id="submit" name="submit" value="submit">Get In Touch</button>
                     </div>
-                    <button type="button" class="full-btn">See Project</button>
-                </div>
-                <div class="project6 project-sample">
-                    <div class="content-wrapper">
-                        <h3 class="project-name">Professional Art Printing Data</h3>
-                        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard.</p>
-                        <ul class="project-lang">
-                            <li>html</li>
-                            <li>bootstrap</li>
-                            <li>Ruby</li>
-                        </ul>
-                    </div>
-                    <button type="button" class="full-btn">See Project</button>
-                </div>
-                <div class="project7 project-sample">
-                    <div class="content-wrapper">
-                        <h3 class="project-name">Professional Art Printing Data</h3>
-                        <p class="project-description">A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard</p>
-                        <ul class="project-lang">
-                            <li>html</li>
-                            <li>bootstrap</li>
-                            <li>Ruby</li>
-                        </ul>
-                    </div>
-                    </section>
-                    <section class="about-me-section">
-                        <div class="grid-wrapper">
-                            <div class="aboutme">
-                                <h1 class="title">About me</h1>
-                                <p class="summary">
-                                    Hello I'm a software developer! I can help you build a product , feature or website Look through 
-                                    some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
-                                </p>
-                                <button type="button" class="resume">Get My Resume</button>
-                            </div>
-                            <div class="skill-set">
-                                <ul>
-                                    <li class="category lang">Language
-                                        <ul class="sublist">
-                                            <li>Javascript</li>
-                                            <li>Ruby</li>
-                                            <li>Html</li>
-                                            <li>Css</li>
-                                        </ul>
-                                    </li>
-                                    <li class="category fram">Framework
-                                        <ul class="sublist">
-                                            <li>Bootstrap</li>
-                                            <li>Ruby on Rails</li>
-                                            <li>RSPec</li>
-                                            <li>CapyBara</li>
-                                            <li>Selenium</li>
-                                        </ul>
-                                    </li>
-                                    <li class="category skills">Skills
-                                        <ul class="sublist">
-                                            <li>Codekit</li>
-                                            <li>Github</li>
-                                            <li>Codepen</li>
-                                            <li>Gitlab</li>
-                                            <li>Terminal</li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-                    <form action="https://formspree.io/f/moqzkbjd" method="post">
-
-                        <h3>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.</h3>
-                        <label for="username"></label>
-                        <input type="text" id="username" name="username" placeholder="username" class="input" required maxlength="30">
-                        <br>
-                        <label for="email"></label>
-                        <input type="email" id="email" name="email" placeholder="email" class="input" required pattern=".*[.com]">
-                        <br><br>
-                        <textarea name="comment" id="comment" cols="30" rows="10" placeholder="write me something..." required maxlength="500"></textarea>
-                        <br>
-                        <label for="getintouch"></label>
-                        <input type="submit"  value="Get in touch" id="getintouch">
-                      
-                    </form>
-                     <footer class="footer-section">
-                        <div class="social-links">
-                          <a  href="https://twitter.com/TonyMakdessy"><img src="./img/tweet.png" alt="twitter icon"></a>
-                          <div class="media">
-                          <a href="https://www.linkedin.com/in/antoine-makdessy/"><img src="./img/link.png" alt="linkedin icon"></a></div>
-                          <a href="https://github.com/ANTOINE1128"><img src="./img/g.png" alt="github icon"></a>
-                          <a href="#"><img src="./img/p.png" alt="angelist icon"></a>
-                        </div>
-                        <a href="#" ><img src="./img/Shape.png" alt="shape" class="shape" ></a>
-                      </footer>   
-                </main>
-                </div>
-            </body>
-            </html>
+                </form>
+            </div>    
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <ul class="socialmedia2">
+                <li>
+                    <a href="https://github.com/ANTOINE1128"><img src="images/github2.png" alt="social media github"></a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/antoine-makdessy/"><img src="images/linkedin2.png" alt="social media linkedin"></a>
+                </li>
+                <li><a href="#"><img src="images/angelist2.png" alt="social media angelist"></a></li>
+                <li><a href="https://twitter.com/TonyMakdessy"><img src="images/twitter2.png" alt="social media twitter"></a></li>
+                <li><a href="#"><img src="images/medium2.png" alt="social media mediam"></a></li>
+            </ul>
+        </div>
+    </section>
+    </footer>
+</body>
+</html>
