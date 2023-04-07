@@ -5,7 +5,6 @@
   text-decoration: none;
 }
 
-
 html {
   scroll-behavior: smooth;
 }
@@ -36,7 +35,8 @@ header .logo {
   font-weight: 700;
   font-size: 1.5rem;
 }
-.letter-icon{
+
+.letter-icon {
   display: none;
 }
 
@@ -57,22 +57,24 @@ nav ul {
   nav ul {
     display: none;
   }
-  .all{
-  width: 100vw;
-}
-.menu{
-  display: block;
-}
 
+  .all {
+    width: 100vw;
+  }
+
+  .menu {
+    display: block;
+  }
 }
 
 @media (min-width: 768px) {
   .barsIcon {
     display: none;
   }
-  .menu{
-  display: none;
-}
+
+  .menu {
+    display: none;
+  }
 }
 
 .headline {
@@ -135,9 +137,6 @@ h1 {
   right: 0;
 }
 
-/* headline section adjustments for desktop version */
-
-
 /* contianer for all works */
 .works {
   background-color: #fff;
@@ -148,9 +147,11 @@ h1 {
   padding-left: 8.75rem;
   padding-right: 8.75rem;
 }
+
 .hr1 {
   display: none;
 }
+
 /* container for 'Recent Works' title */
 .title {
   display: grid;
@@ -171,8 +172,8 @@ h1 {
   padding-bottom: 3rem;
 }
 
-
 /* container for work1 */
+
 .work1 {
   display: grid;
   grid-template-columns: 20rem;
@@ -217,7 +218,7 @@ h1 {
 .work1Button {
   background-color: #fff;
   border: 2px solid #8993a4;
-  color: #091E42;
+  color: #091e42;
   padding: 0.65rem 0.75rem;
   text-align: center;
   text-decoration: none;
@@ -228,7 +229,7 @@ h1 {
 }
 
 .work1Link {
-  background-color:  #F55800;;
+  background-color: #f55800;
   border: none;
   color: #fff;
   padding: 0.75rem;
@@ -240,7 +241,7 @@ h1 {
 
 /* link button styles */
 .work1Link:focus {
-  background-color:  #E05304;
+  background-color: #e05304;
 }
 
 .work1Link:hover {
@@ -255,7 +256,6 @@ h1 {
   border: none;
   color: #5b5957;
 }
-
 
 /* container for otherWorks (works which has the same template) */
 .otherWorks {
@@ -318,9 +318,7 @@ h1 {
 }
 
 .work2Button {
-  background-color: 
- 
-rgba(255, 255, 255, 0.24);
+  background-color: rgba(255, 255, 255, 0.24);
   border: none;
   color: #fff;
   padding: 0.65rem 0.75rem;
@@ -364,9 +362,8 @@ rgba(255, 255, 255, 0.24);
   color: #5b5957;
 }
 
-
-
 /* About me section */
+
 .aboutMe {
   width: 100%;
   display: flex;
@@ -416,14 +413,13 @@ rgba(255, 255, 255, 0.24);
 
 /* link button styles */
 .resumeLink:focus {
-  background-color:#F55800;
+  background-color: #f55800;
 }
 
 .resumeLink:hover {
-  background-color:rgba(255, 245, 225, 1);
+  background-color: rgba(255, 245, 225, 1);
   border: 2px solid rgba(245, 88, 0, 1);
   color: rgba(245, 88, 0, 1);
-  
 }
 
 .resumeLink:disabled {
@@ -443,11 +439,8 @@ rgba(255, 255, 255, 0.24);
   right: 0;
 }
 
-
-
 .line2 {
   padding-top: 12.5rem;
-  
 }
 
 .experience {
@@ -473,7 +466,6 @@ rgba(255, 255, 255, 0.24);
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
-
 
 /* contact section */
 .contact {
@@ -541,11 +533,10 @@ button[type=submit]:focus {
 
 button[type=submit]:hover {
   background-color: #fff;
-  border: 2px solid 
-  rgba(245, 88, 0, 1);
-  color:
-  rgba(245, 88, 0, 1);
-
+  border:
+    2px solid
+    rgba(245, 88, 0, 1);
+  color: rgba(245, 88, 0, 1);
 }
 
 button[type=submit]:disabled {
@@ -560,12 +551,11 @@ button[type=submit]:disabled {
     grid-template-columns: 4rem min(35rem, calc(70% - 10.125rem));
     width: 100%;
   }
- 
-  
+
   .letter-icon {
     display: inline-block;
-    
   }
+
   .socialmedia {
     order: -1;
     margin-top: 1rem;
@@ -591,145 +581,139 @@ button[type=submit]:disabled {
     bottom: -12.25px;
     right: 0;
   }
+
   .work1 {
     display: flex;
     column-gap: 4%;
-
   }
+
   .work1Info {
     width: 40%;
   }
-  .work1Image{
+
+  .work1Image {
     width: 50%;
   }
 
-.title {
-display: flex;
- width: 100%;
- justify-content: flex-start;
- column-gap:1% ;
-}
-.hr1{
- margin-top: 2%;
-  width: 65%;
-  height: 1%;
-}
-.otherWorks {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 2%;
-  
-}
+  .title {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    column-gap: 1%;
+  }
 
-.work2 {
-  
-  
-}
+  .hr1 {
+    margin-top: 2%;
+    width: 65%;
+    height: 1%;
+  }
 
-.projectLink {
-  visibility: hidden;
+  .otherWorks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2%;
+  }
 
+  .projectLink {
+    visibility: hidden;
+  }
 
-}
+  .work2Description {
+    width: 22.75rem;
+    height: 6.25rem;
+  }
 
-.work2Description {
-  width: 22.75rem;
-  height: 6.25rem;
-}
+  .work2:hover {
+    background-image: url(images/work2BackgroundDesk.png);
+    cursor: pointer;
+  }
 
-.work2:hover {
-  background-image: url(images/work2BackgroundDesk.png);
-  cursor: pointer;
-}
+  .work2:hover .work2Info {
+    visibility: hidden;
+  }
 
-.work2:hover .work2Info {
-  visibility: hidden;
-}
+  .work2:hover .projectLink {
+    visibility: initial;
+  }
 
-.work2:hover .projectLink {
-  visibility: initial;
-}
+  .background-imgw2 {
+    background-image: url('images/work2BackgroundDesk.png');
+    width: 100%;
+    height: max-content;
+    left: -12px;
+  }
 
-.background-imgw2 {
-background-image:url('images/work2BackgroundDesk.png');
-width: 100%;
-height: max-content;
-left: -12px;
-}
-.work2Link {
-  width: 101%;
-  background-color: rgba(245, 88, 0, 1);
-  border: none;
-  color: #fff;
-  padding: 0.75rem;
-  text-align: center;
-  display: inline-block;
-  font-weight: 700;
-  font-size: 1rem;
-  margin: 0;
-}
+  .work2Link {
+    width: 101%;
+    background-color: rgba(245, 88, 0, 1);
+    border: none;
+    color: #fff;
+    padding: 0.75rem;
+    text-align: center;
+    display: inline-block;
+    font-weight: 700;
+    font-size: 1rem;
+    margin: 0;
+  }
 
-.aboutMe {
-width: 100%;
-padding-left: 10%;
-margin-top: -5%;
+  .aboutMe {
+    width: 100%;
+    padding-left: 10%;
+    margin-top: -5%;
+  }
 
-}
-.aboutMeDescription {
-width: 44%;
+  .aboutMeDescription {
+    width: 44%;
+  }
 
-}
-.background-img2 {
-  background-image: url('images/aboutMebackgroundDesk.png');
-  background-size: contain;
-  width: 22rem;
-  height: 24.25rem;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 13.1rem;
-  right: 0;
-}
-.line2 {
-  width: 0%;
-  height: 0;
-}
- 
-.experience{
-  display: flex;
-  flex-direction: row;
-  gap: 15%;
+  .background-img2 {
+    background-image: url('images/aboutMebackgroundDesk.png');
+    background-size: contain;
+    width: 22rem;
+    height: 24.25rem;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 13.1rem;
+    right: 0;
+  }
 
-}
-.contact {
-  display: flex;
-  flex-direction: row;
-  column-gap: 10%;
-  padding-bottom: 5%;
-  padding-left:19% ;
-  padding-right: 15%;
- 
-   
-  
-}
-body > section:nth-child(5) > div > div.contactIntro{
-  list-style: none;
-  width: -2%;
-  text-align: initial;
-  
-}
-body > section:nth-child(5) > div > div.contactForm > form{
-  list-style: none;
-  width: 35.5rem;
-  height: 2rem;
-}
-button[type=submit]{
-  margin-right: 74%;
-}
+  .line2 {
+    width: 0%;
+    height: 0;
+  }
 
+  .experience {
+    display: flex;
+    flex-direction: row;
+    gap: 15%;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10%;
+    padding-bottom: 5%;
+    padding-left: 19%;
+    padding-right: 15%;
+  }
+
+  body > section:nth-child(5) > div > div.contactIntro {
+    list-style: none;
+    width: -2%;
+    text-align: initial;
+  }
+
+  body > section:nth-child(5) > div > div.contactForm > form {
+    list-style: none;
+    width: 35.5rem;
+    height: 2rem;
+  }
+
+  button[type=submit] {
+    margin-right: 74%;
+  }
 }
-
-
 
 .footer {
   width: 100%;
