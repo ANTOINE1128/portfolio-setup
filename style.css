@@ -374,6 +374,7 @@ h1 {
   padding: 7.5rem 1.5rem;
   position: relative;
   margin: 0 auto;
+  
 }
 
 .aboutMeTitle {
@@ -664,12 +665,19 @@ button[type=submit]:disabled {
     width: 100%;
     padding-left: 10%;
     margin-top: -5%;
+    
   }
 
   .aboutMeDescription {
     width: 44%;
   }
-
+.ulList {
+  text-align: start;
+  
+}
+.experience ul {
+  line-height: 50px;
+}
   .background-img2 {
     background-image: url('images/aboutMebackgroundDesk.png');
     background-size: contain;
@@ -690,9 +698,12 @@ button[type=submit]:disabled {
   .experience {
     display: flex;
     flex-direction: row;
-    gap: 15%;
-    margin-left: 5%;
-    margin-right: 5%;
+    gap: 18%;
+    margin-left: 0%;
+    margin-right: 8%;
+    justify-content: space-evenly;
+    text-align: start;
+    padding-top: 9rem;
   }
 
   .contact {
@@ -707,6 +718,9 @@ button[type=submit]:disabled {
   .contactIntro {
     width: 29ch;
     text-align: initial;
+    font-size: 31px;
+    line-height: 140%;
+    color: rgba(38, 38, 38, 1) ;
   }
 
   body > section:nth-child(5) > div > div.contactIntro {
@@ -722,6 +736,10 @@ button[type=submit]:disabled {
 
   button[type=submit] {
     margin-right: 71%;
+  }
+  .contactForm {
+
+
   }
 }
 
