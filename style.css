@@ -182,8 +182,7 @@ h1 {
 
 .work1Image img {
   width: 92%;
-  margin-left:9% ;
-
+  margin-left: 9%;
 }
 
 /* Heading for Work1 title */
@@ -631,7 +630,6 @@ button[type=submit]:disabled {
   .work2:hover {
     background-image: url(images/work2BackgroundDesk.png);
     cursor: pointer;
-    
   }
 
   .work2:hover .work2Info {
@@ -684,17 +682,16 @@ button[type=submit]:disabled {
   }
 
   .line2 {
-    width: 90% ;
+    width: 90%;
     height: 201px;
     margin-right: 5%;
-
   }
 
   .experience {
     display: flex;
     flex-direction: row;
     gap: 15%;
-    margin-left:5% ;
+    margin-left: 5%;
     margin-right: 5%;
   }
 
@@ -706,15 +703,15 @@ button[type=submit]:disabled {
     padding-left: 19%;
     padding-right: 15%;
   }
-  .contactIntro{
+
+  .contactIntro {
     width: 29ch;
     text-align: initial;
   }
+
   body > section:nth-child(5) > div > div.contactIntro {
     list-style: none;
     width: 10ch;
-    
-
   }
 
   body > section:nth-child(5) > div > div.contactForm > form {
