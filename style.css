@@ -151,12 +151,6 @@ h1:hover {
 .work1Image img {
   width: 92%;
   margin-left: 9%;
-  transition: transform 500ms;
-  transform: rotateZ(0deg);
-}
-
-.work1Image img:hover {
-  transform: rotateZ(360deg);
 }
 
 .socialmedia img:hover {
@@ -210,11 +204,12 @@ h1:hover {
   padding-bottom: 3rem;
   animation-name: recentWorks;
   animation-duration: 5s;
-  animation-timing-function: ease-out;
+  animation-timing-function: backwards;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   position: absolute;
-  left: -100px;
+  left: 1px;
+ 
 }
 
 @keyframes recentWorks {
@@ -223,7 +218,7 @@ h1:hover {
   }
 
   to {
-    transform: translateX(1800px);
+    transform: translateX(2000px);
   }
 }
 
@@ -235,9 +230,6 @@ h1:hover {
   justify-items: center;
 }
 
-img:hover .work1Image {
-  transform: rotateZ(360deg);
-}
 
 /* Heading for Work1 title */
 .work1Title {
