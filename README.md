@@ -47,6 +47,8 @@
 - **[use css for the styling ]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### 🚀 Live Demo(#live-demo)
+https://antoine1128.github.io/portfolio-setup/
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
@@ -82,7 +84,7 @@ git clone https://github.com/ANTOINE1128/portfolio-setup
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/ANTOINE1128/portfolio-setup/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
