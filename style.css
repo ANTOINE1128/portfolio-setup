@@ -19,6 +19,9 @@ ul {
 
 /* header section style */
 header {
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: auto;
   background-color: #3c3a39;
@@ -26,6 +29,7 @@ header {
   padding: 1rem 2rem;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
 }
 
 header .logo {
@@ -49,43 +53,63 @@ header .logo {
   }
 }
 
-.letter-icon {
+#menuIcon {
+  color: #fff;
+  font-size: 1.75rem;
+  font-weight: 700;
   display: none;
 }
 
-nav,
-nav a {
+.navbar a {
   color: #fff;
   font-size: 1.25rem;
   font-weight: 700;
 }
 
-nav ul {
-  display: flex;
-  gap: 1.5rem;
-}
-
 /* header section adjustments for desktop version */
 @media (max-width: 768px) {
-  nav ul {
+  #menuIcon {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    min-height: 100vh;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    padding: 0 1.5rem;
+    background-color: #3c3a39;
     display: none;
+  }
+
+  .navbar.active {
+    display: block;
+  }
+
+  .logo.active {
+    visibility: hidden;
+  }
+
+  .navbar a {
+    display: block;
+    padding: 2rem;
+    font-size: 2rem;
+    border-bottom: 1px solid #6f6c6b;
+  }
+
+  .navbar a:last-child {
+    display: none;
+    border: none;
   }
 
   .all {
     width: 100vw;
   }
-
-  .menu {
-    display: block;
-  }
 }
 
 @media (min-width: 768px) {
   .barsIcon {
-    display: none;
-  }
-
-  .menu {
     display: none;
   }
 }
@@ -204,21 +228,9 @@ h1:hover {
   padding-bottom: 3rem;
   animation-name: recentWorks;
   animation-duration: 5s;
-  animation-timing-function: backwards;
   animation-fill-mode: both;
-  animation-iteration-count: infinite;
   position: absolute;
   left: 1px;
-}
-
-@keyframes recentWorks {
-  from {
-    transform: translateX(0);
-  }
-
-  to {
-    transform: translateX(2000px);
-  }
 }
 
 /* container for work1 */
@@ -594,7 +606,7 @@ button[type=submit]:disabled {
 @media (min-width: 768px) {
   .headline {
     display: grid;
-    grid-template-columns: 4rem min(35rem, calc(70% - 10.125rem));
+    grid-template-columns: 4rem calc(70% - 10.125%);
     width: 100%;
   }
 
