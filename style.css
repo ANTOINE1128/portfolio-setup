@@ -113,10 +113,10 @@ header .logo {
     display: none;
   }
 
-  .navbar{
-    display:flex;
+  .navbar {
+    display: flex;
     column-gap: 2rem;
-   }
+  }
 }
 
 .headline {
