@@ -112,6 +112,11 @@ header .logo {
   .barsIcon {
     display: none;
   }
+
+  .navbar{
+    display:flex;
+    column-gap: 2rem;
+   }
 }
 
 .headline {
