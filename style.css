@@ -814,3 +814,9 @@ button[type=submit]:disabled {
   padding: 0.63rem;
   margin-top: 1rem;
 }
+
+.errorMessage {
+  color: #ff3860;
+  font-size: 0.75rem;
+  height: 0.75rem;
+}

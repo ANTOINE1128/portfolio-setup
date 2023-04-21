@@ -68,11 +68,19 @@ git clone https://github.com/ANTOINE1128/portfolio-setup
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Antoine Makdessy**
+👤 
+ **Antoine Makdessy**
 
 - GitHub: [@ANTOINE1128](https://github.com/ANTOINE1128)
-- Twitter: [@TonyMakdessy](https://twitter.com/@TonyMakdessy)
-- LinkedIn: [@TonyMakdessy](https://linkedin.com/in/@TonyMakdessy)
+
+**Gisa Chris**
+
+- GitHub: [gisa chris](https://github.com/gisachris)
+
+**Aklilu Mekonnen**
+
+- GitHub: [Aklilu Mekonnen](https://github.com/akezeth)
+
 
 
 ## 🔭 Future Features <a name="future-features"></a>
