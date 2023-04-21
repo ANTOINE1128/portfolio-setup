@@ -129,7 +129,7 @@ const otherProjects = document.createElement('section');
 otherProjects.classList.add('otherWorks');
 workSection.append(otherProjects);
 //= ====== select info from array for project-1=============
-for (let i = 0; i < projectsArray.length; i++) {
+for (let i = 0; i < projectsArray.length; i+=1) {
   const projectMob1 = projectsArray[0];
   const {
     imageTop, titleTop, descTop, techTop,
@@ -182,7 +182,7 @@ for (let i = 0; i < projectsArray.length; i++) {
   break;
 }
 
-for (let i = 1; i < projectsArray.length; i++) {
+for (let i = 1; i < projectsArray.length; i+=1) {
   const projectOther = projectsArray[i];
   const { title, description, technologies } = projectOther;
   //= ======================== =====create the container for otherWork=======
