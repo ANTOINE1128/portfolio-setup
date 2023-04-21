@@ -70,10 +70,15 @@ git clone https://github.com/ANTOINE1128/portfolio-setup
 
 👤 
  **Antoine Makdessy**
+
 - GitHub: [@ANTOINE1128](https://github.com/ANTOINE1128)
-**Gisa CHris**
+
+**Gisa Chris**
+
 - GitHub: [gisa chris](https://github.com/gisachris)
+
 **Aklilu Mekonnen**
+
 - GitHub: [Aklilu Mekonnen](https://github.com/akezeth)
 
 
