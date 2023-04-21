@@ -389,47 +389,16 @@ projectsBtn.forEach((btn) => btn.addEventListener('click', projectModal));
 const projectsBtn2 = document.querySelectorAll('.work1Link');
 projectsBtn2.forEach((btn) => btn.addEventListener('click', projectModal));
 
-// if (projectsArray[i] === projectMob1 ){
-//   constTop.classList.add('modalTopParent');
-//   body.append(modalTop);
+//=========form validation=========================
+const form = document.querySelector('.contactForm');
+const email = document.querySelector('#email');
+const errorMessage = document.querySelector('.errorMessage');
 
-//   //=======get modal Info=======
-//   const modalTopInfo = projectsArray [0];
-//   const {
-//     imageTop,titleTop ,descTop,techTop,liveTop,sourceTop
-//   } = modalTopInfo;
-//   //======= add the to modal
-//  //====== top modal child section
-//   const modalTopChild = document.createElement('section');
-//   modalTopChild.classList.add('modalSection');
-//   modalTop.appendChild(modalTopChild);
-
-//   //=======get modal Info=======
-//   const modalTopInfo = projectsArray [0];
-//   const {
-//     imageTop,titleTop ,descTop,techTop,liveTop,sourceTop
-//   } = modalTopInfo;
-//   //======= add the to modal
-//  //====== top modal child section
-//   const modalTopChild = document.createElement('section');
-//   modalTopChild.classList.add('modalSection');
-//   modalTop.appendChild(modalTopChild);
-
-//   // top modal heading section
-//   const modalHeading = document.createElement('article');
-//   modalHeading.classList.add('heading-section');
-
-//   //========== top modal heaad-text
-// const heading = document.createElement('h2');
-// heading.classList.add('modalH2');
-// heading.innerHTML = titleTop;
-
-// // ===top modal x button
-// const Xbutton = document.createElement('span');
-// Xbutton.classList.add("Xbutton");
-// Xbutton.innerHTML = '&times;';
-// //====  appending element heading button =>article =>topmodalchild
-// modalHeading.append(heading, Xbutton);
-// modalTopChild.append(modalHeading);
-
-// console.log(modalHeading)
+form.addEventListener('submit', (e) => {
+  if (email.value !== email.value.toLowerCase()) {
+    e.preventDefault();
+    errorMessage.textContent = 'Your email input must be in lowercases!';
+  } else {
+    errorMessage.textContent = '';
+  }
+});
