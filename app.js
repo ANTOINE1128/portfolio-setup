@@ -15,114 +15,113 @@ window.onscroll = () => {
   navbar.classList.remove('active');
   logo.classList.remove('active');
 };
-//====================page sections============
+//= ===================page sections============
 const body = document.querySelector('body');
 const all = document.querySelector('#all');
 const bar = document.querySelector('#bar');
-const firstSection = document.querySelector('#firstsection');
 const workSection = document.querySelector('#works');
 const aboutMe = document.querySelector('about-me');
 const contact = document.querySelector('#Contact');
 const footer = document.querySelector('#Footer');
 
-all.append(bar,aboutMe,contact,footer);
+all.append(bar, aboutMe, contact, footer);
 body.append(all);
- // ======adding to work section========
+// ======adding to work section========
 
-//======Info-Arrays=================
+//= =====Info-Arrays=================
 const projectsArray = [
   {
     imageTop: 'images/Img Placeholder.png',
-    titleTop: "Multi-Post Stories",
+    titleTop: 'Multi-Post Stories',
     descTop: "A daily selection of privately personalized reads; no accounts or sign-ups required.<br> has been the industry's standard dummy <br> text ever since the 1500s, when an <br>unknown printer took a standard dummy<br> text.",
-    techTop: ["css", "Html", "Bootstrap","Ruby"],
+    techTop: ['css', 'Html', 'Bootstrap', 'Ruby'],
     liveTop: '',
     sourceTop: '',
-    dataSet:0,
-    
+    dataSet: 0,
+
   },
   {
-    id : 1,
+    id: 1,
     image: '',
     title: 'Professional Art <br> Printing Data',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: '',
     sourceLink: '',
-    dataSet : 1,
-    
+    dataSet: 1,
+
   },
   {
-    id : 2,
+    id: 2,
     image: '',
     title: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: '',
     sourceLink: '',
-    dataSet : 2,
-    
+    dataSet: 2,
+
   },
   {
-    id : 3,
+    id: 3,
     image: '',
     title: 'WebSite <br> Portfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: '',
     sourceLink: '',
-    dataSet : 3,
-  
+    dataSet: 3,
+
   },
   {
-    id : 4,
+    id: 4,
     image: '',
     title: 'Data Dashboard Healthcare',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: '',
     sourceLink: '',
-    dataSet : 4,
-    
+    dataSet: 4,
+
   },
   {
-    id : 5,
+    id: 5,
     image: '',
     title: 'Professional Art <br> Printing Data',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: '',
     sourceLink: '',
-    dataSet : 5,
+    dataSet: 5,
   },
   {
-    id : 6,
+    id: 6,
     image: '',
     title: 'WebSite <br> Portfolio',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. Has been the industry's standard.Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: '',
     sourceLink: '',
-    dataSet : 6,
-  }
+    dataSet: 6,
+  },
 ];
-//=====================function add element with tag names & class name ===========
-const createElement = (tag,className)=> {
+//= ====================function add element with tag names & class name ===========
+const createElement = (tag, className) => {
   const element = document.createElement(tag);
   element.classList.add(className);
   return element;
-} 
-//==========function create list=======
-const createList = (items,className) =>{
+};
+//= =========function create list=======
+const createList = (items, className) => {
   const ul = createElement('ul', className);
-  items.forEach((item)=>{
-    const li = createElement('li',`${className}-item`);
+  items.forEach((item) => {
+    const li = createElement('li', `${className}-item`);
     li.innerHTML = item;
     ul.appendChild(li);
   });
   return ul;
 };
-//============create work container==========
+//= ===========create work container==========
 
 const project1 = document.createElement('section');
 project1.classList.add('work1');
@@ -130,118 +129,112 @@ workSection.append(project1);
 const otherProjects = document.createElement('section');
 otherProjects.classList.add('otherWorks');
 workSection.append(otherProjects);
-//======= select info from array for project-1=============
-for (let i = 0; i < projectsArray.length; i++) {
+//= ====== select info from array for project-1=============
+for (let i = 0; i < projectsArray.length; i) {
   const projectMob1 = projectsArray[0];
-  const { imageTop, titleTop, descTop, techTop} = projectMob1;
+  const {
+    imageTop, titleTop, descTop, techTop,
+  } = projectMob1;
 
-//===== create image project-1=================
-const imageCreate = document.createElement('img');
-imageCreate.src = imageTop;
-imageCreate.classList.add('work1Image');
-project1.append(imageCreate);
+  //= ==== create image project-1=================
+  const imageCreate = document.createElement('img');
+  imageCreate.src = imageTop;
+  imageCreate.classList.add('work1Image');
+  project1.append(imageCreate);
 
+  // create div tag for  work1
+  const work1Info = document.createElement('article');
+  work1Info.classList.add('work1Info');
+  project1.append(work1Info);
 
-// create div tag for  work1
-const work1Info = document.createElement('article');
-work1Info.classList.add('work1Info');
-project1.append(work1Info);
+  // create the h3 element
+  const h3Create = document.createElement('h3');
+  h3Create.classList.add('work1Title');
+  h3Create.innerHTML = titleTop;
+  work1Info.append(h3Create);
+  // create the description
+  const descCreate = document.createElement('p');
+  descCreate.classList.add('work1Description');
+  descCreate.innerHTML = descTop;
+  h3Create.append(descCreate);
 
-// create the h3 element
-const h3Create = document.createElement('h3');
-h3Create.classList.add('work1Title');
-h3Create.innerHTML = titleTop;
-work1Info.append(h3Create);
-//create the description 
-const descCreate = document.createElement('p');
-descCreate.classList.add('work1Description');
-descCreate.innerHTML = descTop;
-h3Create.append(descCreate);
+  // create the list of technologies
+  const listCreate = document.createElement('ul');
+  listCreate.classList.add('work1Languages');
+  (techTop).forEach((item) => {
+    const li = document.createElement('li');
+    li.setAttribute('class', 'work1Button');
+    li.textContent = item;
+    listCreate.append(li);
+  });
+  // append element in order
 
-//create the list of technologies
-const listCreate = document.createElement('ul');
-listCreate.classList.add ('work1Languages');
-(techTop).forEach((item)=>{
-  const li = document.createElement('li')
-  li.setAttribute('class' ,'work1Button');
-  li.textContent = item;
-  listCreate.append(li);
-  
-});
-//append element in order
+  work1Info.append(listCreate);
+  // create button for project 1
+  const buttonLink = document.createElement('button');
+  buttonLink.classList.add('work1Link');
+  // const buttonLink = document.createElement('a');
+  buttonLink.setAttribute('data-btn', projectsArray[0].dataSet);
+  // buttonLink.classList.add('project-btn');
+  buttonLink.textContent = 'see project';
 
-work1Info.append(listCreate);
-//create button for project 1
-const buttonLink = document.createElement('button');
- buttonLink.classList.add('work1Link');
-// const buttonLink = document.createElement('a');
-buttonLink.setAttribute('data-btn', projectsArray[0].dataSet);
-//buttonLink.classList.add('project-btn');
-buttonLink.textContent = 'see project';
-
-
-//buttonContainer.append(buttonLink);
-work1Info.append(buttonLink);
-break;
+  // buttonContainer.append(buttonLink);
+  work1Info.append(buttonLink);
+  break;
 }
 
-for (let i= 1; i < projectsArray.length;i++){
-const projectOther = projectsArray[i];
-const {title,description,technologies} = projectOther;
-//========================= =====create the container for otherWork=======
-const otherProjectsContainers = document.createElement('div');
-otherProjectsContainers.classList.add('work2');
-otherProjects.appendChild(otherProjectsContainers);
-//=======image container work2Info====
-const work2Info =  document.createElement('div');
-work2Info.classList.add('work2Info')
-otherProjectsContainers.appendChild(work2Info);
-// ======= create image for otherWorks====
-const imageCreateOtherProjects = document.createElement('img');
-imageCreateOtherProjects.setAttribute('class', 'background-work2');
-work2Info.appendChild(imageCreateOtherProjects);
-//======h3 text=============================
-const work2Title = document.createElement ('h3');
-work2Title.classList.add('work2Title');
-work2Title.innerHTML  = title;
-work2Info.append(work2Title);
+for (let i = 1; i < projectsArray.length; i) {
+  const projectOther = projectsArray[i];
+  const { title, description, technologies } = projectOther;
+  //= ======================== =====create the container for otherWork=======
+  const otherProjectsContainers = document.createElement('div');
+  otherProjectsContainers.classList.add('work2');
+  otherProjects.appendChild(otherProjectsContainers);
+  //= ======image container work2Info====
+  const work2Info = document.createElement('div');
+  work2Info.classList.add('work2Info');
+  otherProjectsContainers.appendChild(work2Info);
+  // ======= create image for otherWorks====
+  const imageCreateOtherProjects = document.createElement('img');
+  imageCreateOtherProjects.setAttribute('class', 'background-work2');
+  work2Info.appendChild(imageCreateOtherProjects);
+  //= =====h3 text=============================
+  const work2Title = document.createElement('h3');
+  work2Title.classList.add('work2Title');
+  work2Title.innerHTML = title;
+  work2Info.append(work2Title);
 
- //====create description============================
-const otherWorkDescription = document.createElement('p');
-otherWorkDescription.classList.add('work2Description');
-otherWorkDescription.innerHTML = description;
-work2Info.appendChild(otherWorkDescription);
-// ============create otherWorks lists============
-const listOtherWork = document.createElement('ul');
-listOtherWork.classList.add('work2Languages');
-work2Info.appendChild(listOtherWork);
-//if
+  //= ===create description============================
+  const otherWorkDescription = document.createElement('p');
+  otherWorkDescription.classList.add('work2Description');
+  otherWorkDescription.innerHTML = description;
+  work2Info.appendChild(otherWorkDescription);
+  // ============create otherWorks lists============
+  const listOtherWork = document.createElement('ul');
+  listOtherWork.classList.add('work2Languages');
+  work2Info.appendChild(listOtherWork);
+  // if
 
-(technologies).forEach((item) => {
-  const li = document.createElement('li'); 
-  li.textContent = item;
-  li.classList.add('work2Button');
-  listOtherWork.appendChild(li);
- 
-});
-//============== create button for other projects======
+  (technologies).forEach((item) => {
+    const li = document.createElement('li');
+    li.textContent = item;
+    li.classList.add('work2Button');
+    listOtherWork.appendChild(li);
+  });
+  //= ============= create button for other projects======
 
-const buttonLink = document.createElement('button');
- buttonLink.classList.add('project-btn');
-// const buttonLink = document.createElement('a');
-buttonLink.setAttribute('data-btn', projectsArray[i].dataSet);
-//buttonLink.classList.add('project-btn');
-buttonLink.textContent = 'see project';
+  const buttonLink = document.createElement('button');
+  buttonLink.classList.add('project-btn');
+  // const buttonLink = document.createElement('a');
+  buttonLink.setAttribute('data-btn', projectsArray[i].dataSet);
+  // buttonLink.classList.add('project-btn');
+  buttonLink.textContent = 'see project';
 
-
-
-//otherProjectsButton.append(buttonLink);
-otherProjectsContainers.append(buttonLink);
-
-
+  // otherProjectsButton.append(buttonLink);
+  otherProjectsContainers.append(buttonLink);
 }
-//===================pop-up windows=============
-//==array pop-up====
+//= ==================pop-up windows=============
+//= =array pop-up====
 const modalProjects = [
   {
     title: 'Multi-Post Stories',
@@ -252,7 +245,7 @@ const modalProjects = [
     technologies: ['CSS', 'HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://antoine1128.github.io/portfolio-setup/',
     sourceLink: 'https://github.com/ANTOINE1128/portfolio-setup',
-    
+
   },
   {
     title: 's Art Printing Data',
@@ -263,7 +256,7 @@ const modalProjects = [
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://antoine1128.github.io/portfolio-setup/',
     sourceLink: 'https://github.com/ANTOINE1128/portfolio-setup',
-    
+
   },
   {
     title: 'Data Dashboard Healthcare',
@@ -274,7 +267,7 @@ const modalProjects = [
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://antoine1128.github.io/portfolio-setup/',
     sourceLink: 'https://github.com/ANTOINE1128/portfolio-setup',
-    
+
   },
   {
     title: 'WebSite Portfolio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
@@ -285,7 +278,7 @@ const modalProjects = [
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://antoine1128.github.io/portfolio-setup/',
     sourceLink: 'https://github.com/ANTOINE1128/portfolio-setup',
-    
+
   },
   {
     title: 'Professional Art Printing Data',
@@ -296,7 +289,7 @@ const modalProjects = [
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://antoine1128.github.io/portfolio-setup/',
     sourceLink: 'https://github.com/ANTOINE1128/portfolio-setup',
-    
+
   },
   {
     title: 'Data Dashboard Healthcare',
@@ -307,7 +300,7 @@ const modalProjects = [
     technologies: ['HTML', 'Bootstrap', 'Ruby'],
     liveLink: 'https://antoine1128.github.io/portfolio-setup/',
     sourceLink: 'https://github.com/ANTOINE1128/portfolio-setup',
-    
+
   },
   {
     title: 'WebSite Portfolio &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;',
@@ -378,7 +371,7 @@ function projectModal(e) {
   body.appendChild(popupContainer);
 
   document.querySelector('#bar').style.filter = 'blur(10px)';
- 
+
   document.querySelector('#firstsection').style.filter = 'blur(10px)';
   document.querySelector('#about-me').style.filter = 'blur(10px)';
 
@@ -386,7 +379,7 @@ function projectModal(e) {
   closeBtn.addEventListener('click', () => {
     body.removeChild(popupContainer);
     document.querySelector('#bar').style.filter = 'blur(0)';
-    
+
     document.querySelector('#firstsection').style.filter = 'blur(0)';
     document.querySelector('#about-me').style.filter = 'blur(0)';
   });
@@ -396,23 +389,6 @@ const projectsBtn = document.querySelectorAll('.project-btn');
 projectsBtn.forEach((btn) => btn.addEventListener('click', projectModal));
 const projectsBtn2 = document.querySelectorAll('.work1Link');
 projectsBtn2.forEach((btn) => btn.addEventListener('click', projectModal));
-console.log(projectsBtn)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // if (projectsArray[i] === projectMob1 ){
 //   constTop.classList.add('modalTopParent');
@@ -428,7 +404,7 @@ console.log(projectsBtn)
 //   const modalTopChild = document.createElement('section');
 //   modalTopChild.classList.add('modalSection');
 //   modalTop.appendChild(modalTopChild);
-  
+
 //   // top modal heading section
 //   const modalHeading = document.createElement('article');
 //   modalHeading.classList.add('heading-section');
