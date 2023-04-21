@@ -389,7 +389,7 @@ projectsBtn.forEach((btn) => btn.addEventListener('click', projectModal));
 const projectsBtn2 = document.querySelectorAll('.work1Link');
 projectsBtn2.forEach((btn) => btn.addEventListener('click', projectModal));
 
-//=========form validation=========================
+//= ========form validation=========================
 const form = document.querySelector('.contactForm');
 const email = document.querySelector('#email');
 const errorMessage = document.querySelector('.errorMessage');
