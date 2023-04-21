@@ -29,7 +29,6 @@ header {
   padding: 1rem 2rem;
   justify-content: space-between;
   align-items: center;
-  z-index: 10;
 }
 
 header .logo {
@@ -178,8 +177,8 @@ h1:hover {
 }
 
 .work1Image img {
-  width: 92%;
-  margin-left: 9%;
+  width: 52%;
+  margin-left: 5%;
 }
 
 .socialmedia img:hover {
@@ -249,7 +248,7 @@ h1:hover {
 /* Heading for Work1 title */
 .work1Title {
   width: 100%;
-  color: #091e42;
+  color: rgba(28, 26, 25, 1);
   font-family: 'Crete Round', Georgia, Times, 'Times New Roman', serif;
   font-style: normal;
   font-weight: 400;
@@ -395,11 +394,10 @@ h1:hover {
   margin-bottom: 1.5rem;
 }
 
-.work2Link {
+.project-btn {
   width: 100%;
   background-color: rgba(245, 88, 0, 1);
   border: none;
-  color: #fff;
   padding: 0.75rem;
   text-align: center;
   display: inline-block;
@@ -409,18 +407,18 @@ h1:hover {
   margin-top: 1.5rem;
 }
 
-.work2Link:focus {
+.project-btn:focus {
   background-color: rgba(224, 83, 4, 1);
 }
 
-.work2Link:hover {
+.project-btn:hover {
   background-color: rgba(255, 245, 225, 1);
   border: 2px solid rgba(245, 88, 0, 1);
   color: rgba(245, 88, 0, 1);
   transition: 0.5s;
 }
 
-.work2Link:disabled {
+.project-btn:disabled {
   background-color: #f4f1f0;
   border: none;
   color: #5b5957;
@@ -656,7 +654,7 @@ button[type=submit]:disabled {
   }
 
   .work1Image {
-    width: 50%;
+    width: 60%;
   }
 
   .title {
@@ -701,14 +699,14 @@ button[type=submit]:disabled {
     visibility: initial;
   }
 
-  .background-imgw2 {
+  .background-work2 {
     background-image: url('images/work2BackgroundDesk.png');
     width: 100%;
     height: max-content;
     left: -12px;
   }
 
-  .work2Link {
+  .project-btn {
     width: 101%;
     background-color: rgba(245, 88, 0, 1);
     border: none;
@@ -724,7 +722,6 @@ button[type=submit]:disabled {
   .aboutMe {
     width: 100%;
     padding-left: 10%;
-    margin-top: -5%;
   }
 
   .aboutMeDescription {
