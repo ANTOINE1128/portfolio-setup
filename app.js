@@ -13,9 +13,8 @@ menuIcon.onclick = () => {
 window.onscroll = () => {
   menuIcon.classList.remove('uil-multiply');
   navbar.classList.remove('active');
-  logo.classList.remove('active');
 };
-//= ===================page sections============
+// ====================page sections============
 const body = document.querySelector('body');
 const all = document.querySelector('#all');
 const bar = document.querySelector('#bar');
@@ -130,7 +129,7 @@ const otherProjects = document.createElement('section');
 otherProjects.classList.add('otherWorks');
 workSection.append(otherProjects);
 //= ====== select info from array for project-1=============
-for (let i = 0; i < projectsArray.length; i) {
+for (let i = 0; i < projectsArray.length; i++) {
   const projectMob1 = projectsArray[0];
   const {
     imageTop, titleTop, descTop, techTop,
@@ -183,7 +182,7 @@ for (let i = 0; i < projectsArray.length; i) {
   break;
 }
 
-for (let i = 1; i < projectsArray.length; i) {
+for (let i = 1; i < projectsArray.length; i++) {
   const projectOther = projectsArray[i];
   const { title, description, technologies } = projectOther;
   //= ======================== =====create the container for otherWork=======
@@ -393,6 +392,17 @@ projectsBtn2.forEach((btn) => btn.addEventListener('click', projectModal));
 // if (projectsArray[i] === projectMob1 ){
 //   constTop.classList.add('modalTopParent');
 //   body.append(modalTop);
+
+//   //=======get modal Info=======
+//   const modalTopInfo = projectsArray [0];
+//   const {
+//     imageTop,titleTop ,descTop,techTop,liveTop,sourceTop
+//   } = modalTopInfo;
+//   //======= add the to modal
+//  //====== top modal child section
+//   const modalTopChild = document.createElement('section');
+//   modalTopChild.classList.add('modalSection');
+//   modalTop.appendChild(modalTopChild);
 
 //   //=======get modal Info=======
 //   const modalTopInfo = projectsArray [0];
