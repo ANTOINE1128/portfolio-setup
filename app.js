@@ -388,17 +388,3 @@ const projectsBtn = document.querySelectorAll('.project-btn');
 projectsBtn.forEach((btn) => btn.addEventListener('click', projectModal));
 const projectsBtn2 = document.querySelectorAll('.work1Link');
 projectsBtn2.forEach((btn) => btn.addEventListener('click', projectModal));
-
-//= ========form validation=========================
-const form = document.querySelector('.contactForm');
-const email = document.querySelector('#email');
-const errorMessage = document.querySelector('.errorMessage');
-
-form.addEventListener('submit', (e) => {
-  if (email.value !== email.value.toLowerCase()) {
-    e.preventDefault();
-    errorMessage.textContent = 'Your email input must be in lowercases!';
-  } else {
-    errorMessage.textContent = '';
-  }
-});
