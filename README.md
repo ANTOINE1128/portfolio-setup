@@ -28,7 +28,7 @@
 
 # 📖 [portfolio-setup] <a name="about-project"></a>
 
-**[portfolio-setup]**  this is a project of my portfolio ,in which I have created a just a homepage , but it will get better soon ! :)
+**[portfolio-setup]**  The Portfolio Website project is a showcase of my skills, experiences, and achievements as a professional in my field. It is a personal website designed to provide a comprehensive overview of my work, expertise, and contributions.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -45,6 +45,7 @@
 
 - **[use html for the design ]**
 - **[use css for the styling ]**
+- **[use Javascript for User interaction ]**
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### 🚀 Live Demo(#live-demo)
